@@ -42,7 +42,7 @@ body {
   border-top: 3px solid red;
   border-bottom-left-radius: 2em 2em;
   border-bottom-right-radius: 2em 2em;
-  border-image: linear-gradient(45deg, rgb(238, 255, 0), rgba(255, 94, 0, 0.89)) 10;
+  border-image: linear-gradient(45deg, rgb(255,0,0), rgba(176,224,230)) 10;
 }
 
 .contact-icon {
