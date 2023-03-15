@@ -42,11 +42,7 @@ body {
   border-top: 3px solid red;
   border-bottom-left-radius: 2em 2em;
   border-bottom-right-radius: 2em 2em;
-<<<<<<< HEAD
   border-image: linear-gradient(45deg, rgb(0, 102, 255), rgba(255, 94, 0, 0.89)) 10;
-=======
-  border-image: linear-gradient(45deg, rgb(255,0,0), rgba(176,224,230)) 10;
->>>>>>> a2ebbefec8a706f680d08f40508e075eec8bfcf3
 }
 
 .contact-icon {
@@ -72,6 +68,25 @@ body {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+
+.card-flutuante {
+  position: absolute;
+  display: none;
+  margin-left: 80px;
+  margin-top: -80px;
+}
+
+.LogoPerfil:hover + .card-flutuante {
+  display: block;
+}
+.fotoBanner:hover + .card-flutuante {
+  display: block;
+}
+.fotoAutor:hover + .card-flutuante {
+  display: block;
+}
+
 
 @media (max-width: 480px) {
   .parte1 {
